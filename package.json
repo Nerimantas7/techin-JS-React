@@ -35,5 +35,11 @@
     "jest-environment-jsdom": "^29.7.0",
     "prettier": "^3.2.5",
     "vite": "^5.1.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": [
+      "<rootDir>/setupTests.js"
+    ]
   }
 }
